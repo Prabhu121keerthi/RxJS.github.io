@@ -1,0 +1,8 @@
+<h1>Observable using Of and From Operator</h1>
+
+<button #validate (click)="rxjsEventObservable()">Click here for Observable</button>
+<br><br>
+
+<div [formGroup] = "searchForm">
+  <input type="text" formControlName="name" (keyup)="readValue()" >
+</div>
